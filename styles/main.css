@@ -62,24 +62,28 @@ footer a {
   text-align: center;
   font-family: "dejavu sans mono";
   font-weight: bold;
+  
   vertical-align: middle;
+
 /*
   color: #1c0c2d;
 */
-  color: #aaaaaa;
+  color: #b9b9b9;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   display: inline-block;
   width: 100vw;
-  height: 30vh;
+  height: 25vh;
   margin: 0;
 }
 
 #clock h1 {
   font-size: 35px;
+  margin: 0 0 2vh 0;
 }
 
 #clock h3 {
   font-size: 30px;
+  margin: 0;
 }
 
 #search {
@@ -104,6 +108,11 @@ footer a {
   background: white;
   color: #666666;
 
+}
+
+input::placeholder {
+  color: #4a4a4a;
+  opacity: 1;
 }
 
 #searchButton {
