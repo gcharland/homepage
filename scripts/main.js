@@ -26,14 +26,21 @@ function displayTime() {
 }
 
 function duckDuck(input) {
+  //alert(input);
   let newString = input.replace(/ /g, "+");
   return newString;
 }
 
 function buttonClick() {
   let searchQuery = duckDuck(document.getElementById("search").value);
+  let newURL;
 
-  let newURL = `https://duckduckgo.com/?q=${searchQuery}`
+  if (searchQuery == "") {
+    newURL = "https://duckduckgo.com/";
+  } else {
+    newURL = `https://duckduckgo.com/?q=${searchQuery}`;
+  }
+
   document.location.href = newURL;
 
 }

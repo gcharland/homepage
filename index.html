@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+  <meta charset="UTF-8">
   <head>
     <title>Welcome!</title>
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
@@ -10,7 +11,7 @@
       <input class="social"
         type="image"
         target="_blank"
-        rel="noreferrer noopener"
+        rel="noopener noreferrer"
         src="images/reddit.jpeg"
         onclick="document.location.href='https://reddit.com'"
       />
@@ -18,7 +19,7 @@
       <input class="social"
         type="image"
         target="_blank"
-        rel="noreferrer noopener"
+        rel="noopener noreferrer"
         src="images/messenger.png"
         onclick="document.location.href='https://messenger.com'"
       />
@@ -26,7 +27,7 @@
       <input class="social"
         type="image"
         target="_blank"
-        rel="noreferrer noopener"
+        rel="noopener noreferrer"
         src="images/facebook.png"
         onclick="document.location.href='https://facebook.com'"
       />
@@ -34,9 +35,17 @@
       <input class="social"
         type="image"
         target="_blank"
-        rel="noreferrer noopener"
+        rel="noopener noreferrer"
         src="images/lapresse.jpg"
-        onclick="document.location.href='https://lapresse.ca'"
+        onclick="document.location.href='http://lapresse.ca'"
+      />
+
+      <input class="social"
+        type="image"
+        target="_blank"
+        rel="noopener noreferrer"
+        src="images/netflix.jpg"
+        onclick="document.location.href='https://netflix.com'"
       />
 
     </header>
@@ -44,8 +53,14 @@
     <div id="clock"></div>
 
     <input type="text" id="search" placeholder="Duck Duck Go"/>
+    <input id="searchButton"
+      type="image"
+      src="images/search.png"
+      onclick="buttonClick()"
+    />
+    <!--
     <button type="button" id="searchButton" onclick="buttonClick()">Search!</button>
-
+    -->
     <footer>
       <p>Gabriel Charland - 2018</p>
     </footer>
@@ -53,4 +68,8 @@
 
 
   <script src="scripts/main.js"></script>
+  <script src="scripts/buttonTrigger.js"></script>
+  <!--
+  <script src="scripts/dino_game.js"></script>
+  -->
 </html>

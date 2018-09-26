@@ -1,5 +1,5 @@
 body {
-  background: #91f29e;
+  background: #959188;
   font-family: "dejavu mono";
   margin: 0;
 
@@ -20,16 +20,18 @@ header {
 }
 
 input.social {
-    width: 3vw;
-    height: 3vw;
+    width: 6vh;
+    height: 6vh;
 
     display: inline;
-
+    /*
     type="image";
     target="_blank";
     rel="noreferrer noopener";
-
-    border-radius: 5px;
+    */
+    border-radius: 4vh;
+    border-style: solid;
+    border-color: #2d240e;
     margin: 0 1vw 0 1vw;
 }
 
@@ -55,7 +57,7 @@ footer {
   font-weight: bold;
   vertical-align: middle;
 
-  color: #;
+  color: #1c0c2d;
 
   display: inline-block;
   width: 100vw;
@@ -63,18 +65,32 @@ footer {
   margin: 0;
 }
 
+#clock h1 {
+  font-size: 35px;
+}
+
+#clock h3 {
+  font-size: 30px;
+}
+
 #search {
-  width: 30vw;
+  width: 36vw;
   height: 5vh;
-  padding: 1vh 5vw 1vh 1vw;
-  margin: 0 0 0 25vw;
+  padding: 0vh 5vw 0vh 1vw;
+  margin: 0 0 0 26vw;
+
   text-align: left;
+  font-size: 18px;
+  vertical-align: middle;
+
+  float: left;
 
   display: inline-block;
 
-  border: 3px;
-  border-style: double;
-  border-color: #333;
+  border-width: 0.3vh 0 0.3vh 0.3vh;
+  border-radius: 0.3vh 0 0 0.3vh;
+  border-style: solid;
+  border-color: black;
 
   background: white;
   color: #666666;
@@ -82,22 +98,29 @@ footer {
 }
 
 #searchButton {
-  width: 10vw;
-  height: 7vh;
-  padding: 1vh 1vw 1vh 1vw;
-  margin: 0 0 0 3vw;
+  width: 3vh;
+  height: 3vh;
+  padding: 1vh 1vw 1.05vh 1vw;
+  margin: 0;
   text-align: center;
   vertical-align: middle;
 
-  border-radius: 3px;
+  float: left;
+
+  border-width: 0.3vh 0.3vh 0.3vh 0;
+  border-radius: 0 0.3vh 0.3vh 0;
   border-style: solid;
   border-color: black;
 
   display: inline-block;
 
-  background: #666;
-  color: #black;
+  background: white;
+  color: black;
 
   font-size: 18px;
   font-weight: bold;
+}
+
+#searchButton:hover {
+  background: #33cc33;
 }
