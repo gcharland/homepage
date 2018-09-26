@@ -1,5 +1,7 @@
 body {
-  background: #959188;
+  background-image: url("../images/Sutton_Nuit.jpg");
+  background-size: 100vw auto;
+  background-position: 0 -25vw;
   font-family: "dejavu mono";
   margin: 0;
 
@@ -56,9 +58,10 @@ footer {
   font-family: "dejavu sans mono";
   font-weight: bold;
   vertical-align: middle;
-
+/*
   color: #1c0c2d;
-
+*/
+  color: #cfc8c8;
   display: inline-block;
   width: 100vw;
   height: 30vh;
