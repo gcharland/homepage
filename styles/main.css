@@ -1,0 +1,103 @@
+body {
+  background: #91f29e;
+  font-family: "dejavu mono";
+  margin: 0;
+
+  height: 100%;
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+
+  /*display: inline-block;*/
+  top: 0px;
+  width: 100vw;
+  height: 8vh;
+  padding: 5vh 0vw;
+  margin: 0px;
+
+}
+
+input.social {
+    width: 3vw;
+    height: 3vw;
+
+    display: inline;
+
+    type="image";
+    target="_blank";
+    rel="noreferrer noopener";
+
+    border-radius: 5px;
+    margin: 0 1vw 0 1vw;
+}
+
+footer {
+  text-align: center;
+
+  font-family: "courier new";
+  font-size: 11;
+  color: #333;
+
+  position: fixed;
+  width: 100vw;
+  height: 8vh;
+  bottom: 0;
+  padding: 1vh 0vw;
+  margin: 0px;
+
+}
+
+#clock {
+  text-align: center;
+  font-family: "dejavu sans mono";
+  font-weight: bold;
+  vertical-align: middle;
+
+  color: #;
+
+  display: inline-block;
+  width: 100vw;
+  height: 30vh;
+  margin: 0;
+}
+
+#search {
+  width: 30vw;
+  height: 5vh;
+  padding: 1vh 5vw 1vh 1vw;
+  margin: 0 0 0 25vw;
+  text-align: left;
+
+  display: inline-block;
+
+  border: 3px;
+  border-style: double;
+  border-color: #333;
+
+  background: white;
+  color: #666666;
+
+}
+
+#searchButton {
+  width: 10vw;
+  height: 7vh;
+  padding: 1vh 1vw 1vh 1vw;
+  margin: 0 0 0 3vw;
+  text-align: center;
+  vertical-align: middle;
+
+  border-radius: 3px;
+  border-style: solid;
+  border-color: black;
+
+  display: inline-block;
+
+  background: #666;
+  color: #black;
+
+  font-size: 18px;
+  font-weight: bold;
+}
